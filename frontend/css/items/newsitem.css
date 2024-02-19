@@ -1,0 +1,27 @@
+.newsitem {
+    /*border: 2px solid red;*/
+    margin-top: 30px;
+}
+.newsitem p {
+    /*Abstand zwischen <p>-Tags*/
+    margin: 4px;
+}
+
+.newsitemparturl {
+    font-size: 10pt;
+}
+
+.newsitemdate {
+    font-size: 10pt;
+    font-style: normal; /*litalic entfernen*/
+    font-weight: bold;
+}
+
+.newsitemheadline {
+    text-decoration: none;
+    color: #3595ee; /*Leicht dunkelblau*/
+    font-size: 16pt;
+}
+.newsitemheadline:hover {
+    text-decoration: underline;
+}

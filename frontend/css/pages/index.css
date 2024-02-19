@@ -1,0 +1,28 @@
+#newsstats, #allprovider {
+    border-top: 3px solid #ff0000;
+    border-bottom: 3px solid #ff0000;
+
+    padding: 20px;
+}
+
+#providerstats {
+    overflow: hidden;
+    border-top: none;
+}
+
+h3 {
+   text-align: center;
+}
+
+.selectedprovider {
+    width: 234px; /*234px*/
+    float: left;
+}
+
+#providerwrapper {
+    width: 468px;
+    overflow: hidden;
+
+    /*border: 2px solid yellow;*/
+    margin: 0 auto;
+}

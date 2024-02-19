@@ -1,0 +1,33 @@
+.newshubwidget {
+    background-color: #fafafa; /*Dunkles Weiß*/
+    width: 315px; /*Breite des Div*/
+    padding: 10px;
+
+    /*Border --> Farbe wird über JavaScript gesetzt*/
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20px;
+
+    font-family: Verdana;
+    font-size: 12pt;
+    text-align: center;
+}
+.newshubwidget a {
+    /*Schrift-Farbe wird über JavaScript gesetzt*/
+    text-decoration: none;
+}
+.newshubwidget a:hover {
+    text-decoration: underline;
+}
+
+.newshubwidgethead {
+    padding: 10px;
+}
+
+.providericon_widget {
+    width: 40px;
+    height: 40px;
+    margin-left: -22px;
+    margin-top: -20px;/**/
+    position: absolute;
+}

@@ -1,0 +1,18 @@
+body {
+    margin: 0; /* Standard-Margin verhindern */
+    padding: 0; /*Kein Standard-Padding*/
+    font-size: 12pt;
+
+    background-color:#202124;
+
+    color: #d6d6d6;
+    font-family: Verdana;
+
+    overflow-y: scroll; /*Scrollbar immer anzeigen*/
+}
+
+#content {
+    /*border: 2px solid red;*/
+    padding: 30px;
+    margin-top: 56px;
+}

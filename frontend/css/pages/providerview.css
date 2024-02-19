@@ -1,0 +1,69 @@
+/* Leichte Umgestaltung/Erweiterung der "provider"-Klasse */
+.provider {
+    border: 3px solid #ff0000;
+    border-radius: 20px;
+    text-align: center;
+}
+.providername, .providerliveview {
+    color: #d6d6d6;
+    text-decoration: none;
+}
+.providername:hover, .providerliveview:hover {
+    text-decoration: underline;
+}
+.providericon_view {
+    width: 50px;
+    height: 50px;
+    margin-left: -60px;
+    margin-top: -5px;
+    position: absolute;
+    z-index: -1;
+}
+
+/*Trenner zwischen Tagen*/
+.newsitemdayseperator {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ff0000;
+    height: 3px;
+    border: none;
+}
+
+/*Tage / Datum eines Abschnitts*/
+.newsitemdaydate {
+    text-align: center;
+}
+
+/*Leichte Umgestaltung/Erweiterung der "newsitem"-Klasse*/
+.newsitem {
+    border: 2px solid #181818;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #2c2c2c;
+    box-shadow: 0 0 10px #000000;
+    margin-top: 20px;
+}
+
+/*Vor- und Zurück-Buttons*/
+#buttonsdiv {
+    margin-top: 15px;
+    text-align: center;
+}
+.BackAndForthButtons {
+    border-radius: 20px;
+    border: 2px solid #ff0000;
+    color: #3595ee;
+
+    padding: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.BackAndForthButtons:link {
+    text-decoration: none;
+}
+.BackAndForthButtons:active {
+    text-decoration: none;
+}
+.BackAndForthButtons:visited {
+    text-decoration: none;
+}
